@@ -1,0 +1,18 @@
+{
+  "name": "rotate-secret-function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "functions-framework --target=rotateSecret"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.4.1",
+    "@google-cloud/secret-manager": "^5.6.0",
+    "@types/node": "^20.14.11",
+    "typescript": "^5.5.3"
+  }
+}
